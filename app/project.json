@@ -1,0 +1,23 @@
+{
+	"name": "app",
+	"$schema": "../node_modules/nx/schemas/project-schema.json",
+	"sourceRoot": "app/src",
+	"projectType": "application",
+	"prefix": "backend",
+	"generators": {},
+	"targets": {
+		"build": {
+			"executor": "@nx/webpack:webpack",
+			"outputs": ["{options.outputPath}"],
+			"options": {
+				"outputPath": "dist/app",
+				"main": "app/src/main.ts",
+				"tsConfig": "app/tsconfig.app.json",
+				"generatePackageJson": true,
+				"webpackConfig": "app/webpack.config.ts",
+				"target": "node",
+				"compiler": "tsc"
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "target": "es2021",
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es2023", "dom"],
+    "strict": true,
+    "baseUrl": "."
+  }
+}

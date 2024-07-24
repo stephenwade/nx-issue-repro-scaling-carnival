@@ -1,0 +1,24 @@
+{
+  "name": "@/root",
+  "version": "0.0.1",
+  "private": true,
+  "sideEffects": false,
+  "engines": {
+    "node": "20"
+  },
+  "dependencies": {
+    "lodash": "3.10.1",
+    "lodash-4": "npm:lodash@4.17.21",
+    "tslib": "2.6.3"
+  },
+  "devDependencies": {
+    "@nx/js": "19.4.0",
+    "@nx/webpack": "19.4.0",
+    "@types/lodash": "3.10.9",
+    "@types/lodash-4": "npm:@types/lodash@4.17.7",
+    "@types/node": "20.14.11",
+    "nx": "19.4.0",
+    "typescript": "5.4.5",
+    "typescript-plugin-css-modules": "5.1.0"
+  }
+}
